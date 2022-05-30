@@ -6,7 +6,7 @@ import {
   requestAllCheckboxTrue,
   requestAllCheckboxFalse,
   requestProductAllCheck,
-} from 'modules/cart/cart';
+} from 'modules/cart';
 
 function AllCheckbox() {
   const carts = useSelector((state) => state.cart.carts);

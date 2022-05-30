@@ -2,7 +2,7 @@ import React from 'react';
 
 import Checkbox from 'components/Checkbox';
 import { useDispatch, useSelector } from 'react-redux';
-import { requestProductCheck } from 'modules/cart/cart';
+import { requestProductCheck } from 'modules/cart';
 
 function ProductCheckbox({ productId }) {
   const carts = useSelector((state) => state.cart.carts);

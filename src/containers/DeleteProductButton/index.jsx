@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { requestCheckedProductDelete } from 'modules/cart/cart';
+import { requestCheckedProductDelete } from 'modules/cart';
 import { useDispatch } from 'react-redux';
 import MESSAGE from 'constants';
 import DeleteProductButtonStyled from './style';

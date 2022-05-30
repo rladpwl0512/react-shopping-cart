@@ -5,9 +5,9 @@ import {
   requestProductsAdd,
   requestProductsAddFail,
   requestIsLoadingTrue,
-} from 'modules/product/product';
+} from 'modules/product';
 
-import { requestCartAdd, requestCartAddFail } from 'modules/cart/cart';
+import { requestCartAdd, requestCartAddFail } from 'modules/cart';
 
 function useGetProductList() {
   const dispatch = useDispatch();

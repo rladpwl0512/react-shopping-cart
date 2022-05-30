@@ -4,7 +4,7 @@ import {
   requestExistProductAdd,
   requestExistProductDecrease,
   requestUpdateProductQuantity,
-} from 'modules/cart/cart';
+} from 'modules/cart';
 import { useDispatch, useSelector } from 'react-redux';
 import { InputWrapperStyled, InputStyled, ButtonWrapperStyled } from './style';
 
