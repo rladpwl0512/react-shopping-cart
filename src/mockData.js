@@ -110,6 +110,34 @@ const products = [
     title: '피치피치 토스터기',
     price: 49000,
   },
+  {
+    id: 17,
+    imgSrc:
+      'https://t1.kakaocdn.net/friends/prod/product/20220511160758239_8809814925408_8809814925408_AW_00.jpg',
+    title: '어피치 리틀 얼굴쿠션',
+    price: 16000,
+  },
+  {
+    id: 18,
+    imgSrc:
+      'https://t1.kakaocdn.net/friends/prod/product/20220414165522436_8809814924708_AW_03.jpg',
+    title: '가벼운 3단우산_어피치&튜브',
+    price: 17000,
+  },
+  {
+    id: 19,
+    imgSrc:
+      'https://t1.kakaocdn.net/friends/prod/product/20211006111950343_8809814921936_8809814921936_AW_00.jpg',
+    title: '쿠션 메모리폼 슬리퍼_러피치',
+    price: 24000,
+  },
+  {
+    id: 20,
+    imgSrc:
+      'https://t1.kakaocdn.net/friends/prod/product/20211006110741990_8809814922056_8809814922056_AW_00.jpg',
+    title: '의자발커버_어피치',
+    price: 6000,
+  },
 ];
 
 export default products;
